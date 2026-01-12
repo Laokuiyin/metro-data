@@ -1,0 +1,141 @@
+Traceback (most recent call last):
+  File "/root/ubuntu_deploy/weibo.py", line 2, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+------------------------------
+统计日期: 2026-01-04
+写入CSV日期: 2026-01-03（统计日期前一天）
+运营线路: 20
+昨日客流: 1016.00 (万)
+------------------------------
+
+数据已保存到: /root/ubuntu_deploy/shanghai_metro_data.csv
+------------------------------
+统计日期: 2026-01-05
+写入CSV日期: 2026-01-04（统计日期前一天）
+运营线路: 20
+昨日客流: 1099.00 (万)
+------------------------------
+
+数据已保存到: /root/ubuntu_deploy/shanghai_metro_data.csv
+开始上传飞书多维表格...
+[Lark] [2026-01-07 11:25:04,317] [DEBUG] POST https://open.feishu.cn/open-apis/bitable/v1/apps/U7Oibq2HIaoOVdsBeqccFp6gnAg/tables/tblocD8QRdUqUi9Z/records 401, headers: {"User-Agent": "oapi-sdk-python/v1.5.2", "Content-Type": "application/json; charset=utf-8", "Authorization": "Bearer u-da.S8FSYhfdo48.0RSu26p5kknMgl4ghVM8aEQww0EZ6"}, params: [], body: {"fields": {"日期": "", "地铁运营路线数": "20", "人次": "1016.00"}}
+[Lark] [2026-01-07 11:25:04,319] [ERROR] create failed, code: 99991677, msg: Authentication token expired. Please request a new one., log_id: 202601071125040EF607640D616C044EB3, resp: 
+{
+    "code": 99991677,
+    "msg": "Authentication token expired. Please request a new one.",
+    "error": {
+        "log_id": "202601071125040EF607640D616C044EB3",
+        "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202601071125040EF607640D616C044EB3&code=99991677&method_id=6965347212289490946"
+    }
+}
+[Lark] [2026-01-07 11:25:04,447] [DEBUG] POST https://open.feishu.cn/open-apis/bitable/v1/apps/U7Oibq2HIaoOVdsBeqccFp6gnAg/tables/tblocD8QRdUqUi9Z/records 401, headers: {"User-Agent": "oapi-sdk-python/v1.5.2", "Content-Type": "application/json; charset=utf-8", "Authorization": "Bearer u-da.S8FSYhfdo48.0RSu26p5kknMgl4ghVM8aEQww0EZ6"}, params: [], body: {"fields": {"日期": "", "地铁运营路线数": "20", "人次": "1099.00"}}
+[Lark] [2026-01-07 11:25:04,448] [ERROR] create failed, code: 99991677, msg: Authentication token expired. Please request a new one., log_id: 20260107112504882879158045E4FF7B42, resp: 
+{
+    "code": 99991677,
+    "msg": "Authentication token expired. Please request a new one.",
+    "error": {
+        "log_id": "20260107112504882879158045E4FF7B42",
+        "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20260107112504882879158045E4FF7B42&code=99991677&method_id=6965347212289490946"
+    }
+}
+------------------------------
+统计日期: 2026-01-06
+写入CSV日期: 2026-01-05（统计日期前一天）
+运营线路: 20
+昨日客流: 1117.00 (万)
+------------------------------
+日期 2026-01-05 的数据已存在，跳过写入。
+未新增数据，不触发飞书上传。
+------------------------------
+统计日期: 2026-01-07
+写入CSV日期: 2026-01-06（统计日期前一天）
+运营线路: 20
+昨日客流: 1128.00 (万)
+------------------------------
+
+数据已保存到: /root/ubuntu_deploy/shanghai_metro_data.csv
+开始上传飞书多维表格...
+[Lark] [2026-01-09 11:10:06,224] [DEBUG] GET https://open.feishu.cn/open-apis/bitable/v1/apps/U7Oibq2HIaoOVdsBeqccFp6gnAg/tables/tblocD8QRdUqUi9Z/records 200, headers: {"User-Agent": "oapi-sdk-python/v1.5.2", "Authorization": "Bearer t-g10419baX7T22UD6MF3S6GKBIIMDG7Z2HYSSSTKE"}, params: [], body: None
+[Lark] [2026-01-09 11:10:08,246] [DEBUG] POST https://open.feishu.cn/open-apis/bitable/v1/apps/U7Oibq2HIaoOVdsBeqccFp6gnAg/tables/tblocD8QRdUqUi9Z/records 200, headers: {"User-Agent": "oapi-sdk-python/v1.5.2", "Content-Type": "application/json; charset=utf-8", "Authorization": "Bearer t-g10419baX7T22UD6MF3S6GKBIIMDG7Z2HYSSSTKE"}, params: [], body: {"fields": {"日期": "2026-01-06", "地铁运营路线数": "20", "人次": 1128.0}}
+[Lark] [2026-01-09 11:10:08,247] [INFO] {
+    "record": {
+        "fields": {
+            "人次": 1128,
+            "地铁运营路线数": "20",
+            "日期": "2026-01-06"
+        },
+        "record_id": "recv7LUAqIKFrq"
+    }
+}
+✅ 成功上传: 2026-01-06
+✅ 已上传 1 条新记录到飞书多维表格
+------------------------------
+统计日期: 2026-01-08
+写入CSV日期: 2026-01-07（统计日期前一天）
+运营线路: 20
+昨日客流: 1130.00 (万)
+------------------------------
+
+数据已保存到: /root/ubuntu_deploy/shanghai_metro_data.csv
+开始上传飞书多维表格...
+[Lark] [2026-01-10 11:10:12,202] [DEBUG] GET https://open.feishu.cn/open-apis/bitable/v1/apps/U7Oibq2HIaoOVdsBeqccFp6gnAg/tables/tblocD8QRdUqUi9Z/records 200, headers: {"User-Agent": "oapi-sdk-python/v1.5.2", "Authorization": "Bearer t-g1041abaPE3IW3BLQ73MLSHYIJM5JUF3C53DECOC"}, params: [], body: None
+[Lark] [2026-01-10 11:10:13,615] [DEBUG] POST https://open.feishu.cn/open-apis/bitable/v1/apps/U7Oibq2HIaoOVdsBeqccFp6gnAg/tables/tblocD8QRdUqUi9Z/records 200, headers: {"User-Agent": "oapi-sdk-python/v1.5.2", "Content-Type": "application/json; charset=utf-8", "Authorization": "Bearer t-g1041abaPE3IW3BLQ73MLSHYIJM5JUF3C53DECOC"}, params: [], body: {"fields": {"日期": "2026-01-07", "地铁运营路线数": "20", "人次": 1130.0}}
+[Lark] [2026-01-10 11:10:13,616] [INFO] {
+    "record": {
+        "fields": {
+            "人次": 1130,
+            "地铁运营路线数": "20",
+            "日期": "2026-01-07"
+        },
+        "record_id": "recv7RL8v1dqSi"
+    }
+}
+✅ 成功上传: 2026-01-07
+✅ 已上传 1 条新记录到飞书多维表格
+------------------------------
+统计日期: 2026-01-09
+写入CSV日期: 2026-01-08（统计日期前一天）
+运营线路: 20
+昨日客流: 1194.00 (万)
+------------------------------
+
+数据已保存到: /root/ubuntu_deploy/shanghai_metro_data.csv
+开始上传飞书多维表格...
+[Lark] [2026-01-11 11:10:08,298] [DEBUG] GET https://open.feishu.cn/open-apis/bitable/v1/apps/U7Oibq2HIaoOVdsBeqccFp6gnAg/tables/tblocD8QRdUqUi9Z/records 200, headers: {"User-Agent": "oapi-sdk-python/v1.5.2", "Authorization": "Bearer t-g1041bba2EJDHSGW332EYI5TYUGUB7337PSMI7BH"}, params: [], body: None
+[Lark] [2026-01-11 11:10:09,680] [DEBUG] POST https://open.feishu.cn/open-apis/bitable/v1/apps/U7Oibq2HIaoOVdsBeqccFp6gnAg/tables/tblocD8QRdUqUi9Z/records 200, headers: {"User-Agent": "oapi-sdk-python/v1.5.2", "Content-Type": "application/json; charset=utf-8", "Authorization": "Bearer t-g1041bba2EJDHSGW332EYI5TYUGUB7337PSMI7BH"}, params: [], body: {"fields": {"日期": "2026-01-08", "地铁运营路线数": "20", "人次": 1194.0}}
+[Lark] [2026-01-11 11:10:09,681] [INFO] {
+    "record": {
+        "fields": {
+            "人次": 1194,
+            "地铁运营路线数": "20",
+            "日期": "2026-01-08"
+        },
+        "record_id": "recv7XBE4yQLw7"
+    }
+}
+✅ 成功上传: 2026-01-08
+✅ 已上传 1 条新记录到飞书多维表格
+------------------------------
+统计日期: 2026-01-10
+写入CSV日期: 2026-01-09（统计日期前一天）
+运营线路: 20
+昨日客流: 753.00 (万)
+------------------------------
+
+数据已保存到: /root/ubuntu_deploy/shanghai_metro_data.csv
+开始上传飞书多维表格...
+[Lark] [2026-01-12 11:10:06,962] [DEBUG] GET https://open.feishu.cn/open-apis/bitable/v1/apps/U7Oibq2HIaoOVdsBeqccFp6gnAg/tables/tblocD8QRdUqUi9Z/records 200, headers: {"User-Agent": "oapi-sdk-python/v1.5.2", "Authorization": "Bearer t-g1041cbaN7QYFV7XTCUUUWSL3J3QOP43P6R3S65L"}, params: [], body: None
+[Lark] [2026-01-12 11:10:08,707] [DEBUG] POST https://open.feishu.cn/open-apis/bitable/v1/apps/U7Oibq2HIaoOVdsBeqccFp6gnAg/tables/tblocD8QRdUqUi9Z/records 200, headers: {"User-Agent": "oapi-sdk-python/v1.5.2", "Content-Type": "application/json; charset=utf-8", "Authorization": "Bearer t-g1041cbaN7QYFV7XTCUUUWSL3J3QOP43P6R3S65L"}, params: [], body: {"fields": {"日期": "2026-01-09", "地铁运营路线数": "20", "人次": 753.0}}
+[Lark] [2026-01-12 11:10:08,708] [INFO] {
+    "record": {
+        "fields": {
+            "人次": 753,
+            "地铁运营路线数": "20",
+            "日期": "2026-01-09"
+        },
+        "record_id": "recv83san3r5qf"
+    }
+}
+✅ 成功上传: 2026-01-09
+✅ 已上传 1 条新记录到飞书多维表格
